@@ -1,1 +1,1 @@
-# Belajar-Golang
+# Belajar Golang dari awal dengan Go fiber.
