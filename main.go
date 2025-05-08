@@ -1,9 +1,15 @@
 package main
 
-import "github.com/gofiber/fiber/v2"
+import (
+	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/logger"
+)
 
 func main() {
 	app := fiber.New()
+
+	// Add logger middleware
+	app.Use(logger.New())
 
 	// Menyajikan file statis dari folder public
 	app.Static("/", "./public")
@@ -15,11 +21,17 @@ func main() {
 		<html lang="en">
 		<head>
 			<meta charset="UTF-8">
-			<title>Hello Fiber</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Hacker Style Hello World</title>
 			<link rel="stylesheet" href="/css/style.css">
 		</head>
 		<body>
-			<h1>Hello World!</h1>
+			<div class="container">
+				<div class="binary-background" id="binary-bg"></div>
+				<h1 class="glowing-text">Hello World!</h1>
+			</div>
+
+			<script src="/js/script.js"></script>
 		</body>
 		</html>
 		`
