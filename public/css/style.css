@@ -1,7 +1,21 @@
 body {
-  background-color: #f3f4f6;
-  color: #1f2937;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding-top: 100px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #2c003e, #1a0029); /* gradasi ungu gelap */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00,
+               0 0 20px #00ff00,
+               0 0 40px #00ff00;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  padding: 20px;
+  border-radius: 8px;
 }
