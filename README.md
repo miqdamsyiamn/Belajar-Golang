@@ -1,2 +1,2 @@
 # Belajar Golang dari awal dengan Go fiber.
-hallo guys
+hallo guys kita akan belajar golang dengan hello word
