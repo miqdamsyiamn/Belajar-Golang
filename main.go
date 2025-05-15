@@ -29,6 +29,7 @@ func main() {
 			<div class="container">
 				<div class="binary-background" id="binary-bg"></div>
 				<h1 class="glowing-text">Hallo Duniaaaaa!</h1>
+				<h2 class="glowing-text"> halo guys  </h2>
 			</div>
 
 			<script src="/js/script.js"></script>
